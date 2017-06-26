@@ -1,0 +1,1 @@
+var mail=document.querySelector(".mail-link"),mailTo="mailto:james@jamesmcgrath.io",addHREF=function(){this.setAttribute("href",mailTo)};mail.addEventListener("click",addHREF,{once:!0});
